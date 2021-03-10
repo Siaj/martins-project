@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+}
+
+.main-navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .main-navigation li {
+    float: left; 
+    /* Use float: left or right */
+  }
+  
+  .main-navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .main-navigation li a:hover {
+    background-color: #111;
+  }
+
+  .main-navigation .active {
+    background-color: #4CAF50;
+  }
+
+  @media screen and (max-width: 600px) {
+  .main-navigation li {float: none;}
+}
+
+.main-footer {
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;  
+}
+
+.main-footer p {
+    text-align: center;
+    color: white;
+}
