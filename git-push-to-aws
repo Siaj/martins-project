@@ -3,11 +3,18 @@
 message=$1
 currentBranch=$(git symbolic-ref --short -q HEAD)
 
+echo $PWD
+
+$(cd ~/Documents/martins_project)
+
 if [ ! -z "$1" ]
-then 
+then
     git add --all
+    echo "Adding files to local staging environment"
     git commit -m "$message"
+    echo "Commiting to local staging environment"
     git push origin $currentBranch
+    echo "Pushing to remote branch $currentBranch"
 else
     echo "Commit message is required tp proceed with commit"
 fi
