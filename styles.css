@@ -1,0 +1,45 @@
+ 
+a:link {
+    color:blue;
+  }
+  
+  
+  a:visited {
+    color: blue;
+  }
+  
+  
+  a:hover {
+    color :red;
+  }
+  
+  
+  a:active {
+    color: red;
+  }
+  a {
+      text-decoration: none;
+  }
+  li { list-style-image: url(/assets/images/robot_1f916.png); }
+  
+   table.students { border-top: 2px solid black;
+    width:fit-content;
+
+   }
+  
+    tr.odd {background-color: #efefef;
+      }
+    tr.even {background-color:antiquewhite}
+    tr.great {
+      background-color:azure;
+    }
+    tr.undergrad {
+      background-color:aliceblue;
+    }
+    h3.services {
+      color: green;
+    }
+    li.services {
+      list-style-image: url(/assets/images/sphere.jpg);
+
+    }
