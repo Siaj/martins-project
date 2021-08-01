@@ -40,10 +40,14 @@ a:link {
     margin-left:auto;
     margin-right:auto;
    }
+   div.wrapper {
+     margin-left:auto;
+     margin-right:auto;
+     width:960px;
+   }
    th.title {
-    border-bottom : 5px solid black;
-    border-top : 5px solid black;
-    font-size : 22px;color :blue; 
+    
+    color :blue; 
     font-family: Times New Roman, Times, serif;
    }
    div.page {
@@ -52,6 +56,7 @@ a:link {
     margin-right:auto;
     color :black; 
     font-family: Times New Roman, Times, serif;
+    min-width:793px;
    }
    
    table.header {
@@ -79,8 +84,7 @@ a:link {
     width:70%;
     margin-left:auto;
     margin-right:auto;
-    border-bottom : 3px solid black;
-    border-top : 3px solid black;
+    
     text-decoration:none;
    }
     h3.services {
@@ -92,13 +96,30 @@ a:link {
     }
     /*mobile phone styles*/
     @media all and (max-width:767px) {
+      .header {
+        min-width: 375px;
+        max-height: 50px;
+        font-size : 13px;
+        font-style: bold;
+        margin:2px;
+        
+      }
       .title {
-        display:inline-block;
-        width:max-content;
-        font: 1px;
+        border-bottom : 3px solid black;
+    border-top : 3px solid black;
+      }
+      .picture {
+        height: 45px;
+        width:79px;
         
-        
-       }
+      }
+      .navb {
+        min-width: 500px;
+        max-height: 50px;
+        font-size : 10px;
+        border-bottom : 2px solid black;
+    border-top : 2px solid black;
+      }
 
       
       }
