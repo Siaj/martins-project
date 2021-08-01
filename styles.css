@@ -26,7 +26,46 @@ a:link {
     width:fit-content;
 
    }
-  
+   h3.headingsp {
+    text-align: center;
+   }
+   img.martinspic {
+    float: right;
+   }
+   img.uoitpic {
+     padding: 0px;
+   }
+   footer.footof {
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+   }
+   th.title {
+    border-bottom : 5px solid black;
+    border-top : 5px solid black;
+    font-size : 22px;color :blue; 
+    font-family: Times New Roman, Times, serif;
+   }
+   div.page {
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+    color :black; 
+    font-family: Times New Roman, Times, serif;
+   }
+   
+   table.header {
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+   }
+   th.picture {
+    border: 0px solid black;
+    height: 79px; 
+    width:120px; 
+    padding :0px;
+
+   }
     tr.odd {background-color: #efefef;
       }
     tr.even {background-color:antiquewhite}
@@ -36,6 +75,14 @@ a:link {
     tr.undergrad {
       background-color:aliceblue;
     }
+   table.navb {
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+    border-bottom : 3px solid black;
+    border-top : 3px solid black;
+    text-decoration:none;
+   }
     h3.services {
       color: green;
     }
@@ -43,3 +90,18 @@ a:link {
       list-style-image: url(/assets/images/sphere.jpg);
 
     }
+    /*mobile phone styles*/
+    @media all and (max-width:767px) {
+      .title {
+        display:inline-block;
+        width:max-content;
+        font: 1px;
+        
+        
+       }
+
+      
+      }
+      
+
+    
