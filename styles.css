@@ -192,6 +192,11 @@ a:link {
         font-size : 10px;
         width: 100%;
       }
+      .page2 {
+        font-size : 10px;
+        width: 100%;
+      }
+
       .headingsp {
         text-align: left;
       }
@@ -228,10 +233,24 @@ a:link {
 
     
       }
+      .page2 {
+        height:50%;
+        width:60%;
+        margin-left:auto;
+        margin-right:auto;color :black; 
+        font-family: Times New Roman, Times, serif;
+      }
+      .index-container {
+        height:50%;
+        width:60%;
+        margin-left:auto;
+        margin-right:auto;color :black; 
+        font-family: Times New Roman, Times, serif;
+      }
       .home-text {
         
         
-        font-size : 18px;
+        font-size : 15px;
         
        
         
@@ -249,8 +268,8 @@ a:link {
       }
       .martinspic {
         float:right;
-        height: 501px;
-        width: 300px;
+        height: 301px;
+        width: 200px;
        
 
       }
@@ -272,11 +291,14 @@ a:link {
         text-align: center;
        }
       
-        }
+        
         .career {
-          float :center;
+          float: center;
+          
           margin-left: auto;
           margin-right: auto;
+        }
+        
         }
 
       
