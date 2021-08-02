@@ -52,13 +52,11 @@ a:link {
     font-family: Times New Roman, Times, serif;
    }
    div.page {
-    width:60%;
-    margin-left:auto;
-    margin-right:auto;
+   
     color :black; 
     font-family: Times New Roman, Times, serif;
-    min-width:793px;
-    max-width :700;
+    
+    
    }
    
    table.header {
@@ -192,6 +190,7 @@ a:link {
       }
       .page {
         font-size : 10px;
+        width: 100%;
       }
       .headingsp {
         text-align: left;
@@ -257,6 +256,9 @@ a:link {
       }
       .page {
         height:50%;
+        width:60%;
+        margin-left:auto;
+        margin-right:auto;
       }
       .header2 {
         margin-left: auto;
