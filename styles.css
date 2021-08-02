@@ -117,11 +117,7 @@ a:link {
         width :400px;
         float: center;
       }
-      .career {
-        width :400px;
-        float: center;
-
-      }
+      
       .header {
         min-width: 375px;
         max-height: 50px;
@@ -293,9 +289,10 @@ a:link {
       
         
         .career {
-          float: center;
+          /*float: center;*/
+          width :700px;
           
-          margin-left: auto;
+          
           margin-right: auto;
         }
         
