@@ -113,16 +113,54 @@ a:link {
         width:79px;
         
       }
+      .martinspic {
+        float: center;
+        height: 226px;
+        width: 150px;
+        margin-right: 3px;
+
+      }
       .navb {
-        min-width: 500px;
+        
+        min-width: 375px;
         max-height: 50px;
         font-size : 10px;
         border-bottom : 2px solid black;
     border-top : 2px solid black;
       }
+      .home-text {
+        
+        
+        font-size : 10px;
+        
+       
+        
+      }
+      
+     
 
       
       }
+      /*computer screens*/
+      @media all and (min-width:768px) {
+        .title {
+          font-size: 22px;
+          border-top: 5px solid black;
+          border-bottom: 5px solid black;
+        }
+        .navb {
+          
+        border-bottom : 3px solid black;
+    border-top : 3px solid black;
+      }
+      .home-text {
+        width: 70%;
+      }
+      
+        }
+
+      
+
       
 
     
