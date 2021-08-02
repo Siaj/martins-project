@@ -43,6 +43,11 @@ a:link {
      margin-right:auto;
      width:960px;
    }
+   th.title2 {
+    
+    color :blue; 
+    font-family: Times New Roman, Times, serif;
+   }
    th.title {
     
     color :blue; 
@@ -79,6 +84,13 @@ a:link {
     tr.undergrad {
       background-color:aliceblue;
     }
+    table.navb2 {
+      width:70%;
+      margin-left:auto;
+      margin-right:auto;
+      
+      text-decoration:none;
+     }
    table.navb {
     width:70%;
     margin-left:auto;
@@ -96,9 +108,14 @@ a:link {
     /*mobile phone styles*/
     @media all and (max-width:767px) {
       .footof {
-        text-align: center;
+        text-align: left;
         font-size :13px;
+        float: left;
 
+      }
+      .publications {
+        width :430px;
+        float: center;
       }
       .header {
         min-width: 375px;
@@ -107,6 +124,32 @@ a:link {
         font-style: bold;
         margin:2px;
         
+      }
+      .header2 {
+        min-width: 440px;
+        max-height: 50px;
+        font-size : 15px;
+        font-style: bold;
+        margin:2px;
+
+      }
+      .navb2 {
+        min-width: 440px;
+        max-height: 50px;
+        font-size : 10px;
+        border-bottom : 2px solid black;
+    border-top : 2px solid black;
+
+      }
+      .picture2 {
+        height: 50px;
+        width: 90px;
+        
+      }
+      .title2 {
+        border-bottom : 3px solid black;
+    border-top : 3px solid black;
+    min-width: 440px;
       }
       .title {
         border-bottom : 3px solid black;
@@ -143,6 +186,7 @@ a:link {
       .page {
         font-size : 10px;
       }
+     
 
       
      
@@ -155,11 +199,20 @@ a:link {
           font-size: 22px;
           border-top: 5px solid black;
           border-bottom: 5px solid black;
+          
         }
         .navb {
           
         border-bottom : 3px solid black;
     border-top : 3px solid black;
+      }
+      .title2 {
+        border-bottom : 5px solid black;
+        border-top : 5px solid black;
+        font-size: 22px;
+        max-width:1000px ;
+
+    
       }
       .home-text {
         
@@ -168,6 +221,14 @@ a:link {
         
        
         
+      }
+      .navb2 {
+        max-width: 1000px;
+        max-height: 60%;
+        font-size : 15px;
+        border-bottom : 3px solid black;
+    border-top : 3px solid black;
+
       }
       .pict {
         width: 600px;
@@ -181,6 +242,14 @@ a:link {
       }
       .page {
         height:50%;
+      }
+      .header2 {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .picture2 { width: 120px;
+        height:79px;
+
       }
       
         }
