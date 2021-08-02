@@ -26,9 +26,7 @@ a:link {
     width:fit-content;
 
    }
-   h3.headingsp {
-    text-align: center;
-   }
+   
   
    img.uoitpic {
      padding: 0px;
@@ -113,8 +111,12 @@ a:link {
         float: left;
 
       }
+      .students {
+        max-width: 400px;
+      }
+
       .publications {
-        width :430px;
+        width :400px;
         float: center;
       }
       .header {
@@ -186,6 +188,10 @@ a:link {
       .page {
         font-size : 10px;
       }
+      .headingsp {
+        text-align: left;
+      }
+
      
 
       
@@ -201,6 +207,10 @@ a:link {
           border-bottom: 5px solid black;
           
         }
+        .students {
+          width:fit-content;
+        }
+        
         .navb {
           
         border-bottom : 3px solid black;
@@ -251,6 +261,9 @@ a:link {
         height:79px;
 
       }
+      .headingsp {
+        text-align: center;
+       }
       
         }
 
