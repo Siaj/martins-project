@@ -29,9 +29,7 @@ a:link {
    h3.headingsp {
     text-align: center;
    }
-   img.martinspic {
-    float: right;
-   }
+  
    img.uoitpic {
      padding: 0px;
    }
@@ -57,6 +55,7 @@ a:link {
     color :black; 
     font-family: Times New Roman, Times, serif;
     min-width:793px;
+    max-width :700;
    }
    
    table.header {
@@ -96,6 +95,11 @@ a:link {
     }
     /*mobile phone styles*/
     @media all and (max-width:767px) {
+      .footof {
+        text-align: center;
+        font-size :13px;
+
+      }
       .header {
         min-width: 375px;
         max-height: 50px;
@@ -114,7 +118,7 @@ a:link {
         
       }
       .martinspic {
-        float: center;
+        
         height: 226px;
         width: 150px;
         margin-right: 3px;
@@ -136,6 +140,10 @@ a:link {
        
         
       }
+      .page {
+        font-size : 10px;
+      }
+
       
      
 
@@ -154,7 +162,25 @@ a:link {
     border-top : 3px solid black;
       }
       .home-text {
-        width: 70%;
+        
+        
+        font-size : 18px;
+        
+       
+        
+      }
+      .pict {
+        width: 600px;
+      }
+      .martinspic {
+        float:right;
+        height: 501px;
+        width: 300px;
+       
+
+      }
+      .page {
+        height:50%;
       }
       
         }
