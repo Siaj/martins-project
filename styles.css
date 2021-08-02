@@ -128,15 +128,15 @@ a:link {
         
       }
       .header2 {
-        min-width: 440px;
+        min-width: 375px;
         max-height: 50px;
-        font-size : 15px;
+        font-size : 13px;
         font-style: bold;
         margin:2px;
 
       }
       .navb2 {
-        min-width: 440px;
+        min-width: 400px;
         max-height: 50px;
         font-size : 10px;
         border-bottom : 2px solid black;
@@ -151,7 +151,7 @@ a:link {
       .title2 {
         border-bottom : 3px solid black;
     border-top : 3px solid black;
-    min-width: 440px;
+    min-width: 400px;
       }
       .title {
         border-bottom : 3px solid black;
